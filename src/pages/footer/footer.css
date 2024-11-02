@@ -1,0 +1,75 @@
+
+.FooterMain{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./bgPoopa.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    background-attachment: fixed;
+
+}
+
+.FooterMain2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom , #fdc989, rgb(49, 26, 0));
+    background-image: url(./bgFOOTER.png);
+    background-size: cover;
+    background-position: center;
+   
+ 
+}
+.mainFooterfLEX{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+
+
+}
+.icons h1{
+    font-size: 50px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.icons img{
+    width: 80px;
+    transition: 0.3s ease;
+border-radius: 50%;
+
+}
+
+.icons img:hover{
+    scale: 1.1;
+background-color: #e8d9d6;
+
+}
+.Sup{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.Sup img{
+    width: 200px;
+    transition: 0.5s ease;
+}
+.Sup img:hover{
+    scale: 1.1;
+    rotate: 360deg;
+
+}
+
+.Sup h1{
+   font-size: 50px;
+}
